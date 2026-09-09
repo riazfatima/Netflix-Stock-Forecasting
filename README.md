@@ -116,9 +116,9 @@ RMSE, and R² — classification metrics do not apply to this regression task.)*
 | Linear Regression (Return-based) | 8.17 | 13.17 | 0.9645 |
 | Random Forest (Return-based) | 8.75 | 13.74 | 0.9614 |
 
-![Prediction Comparison](prediction_comparison_corrected.png)
+![Prediction Comparison](prediction_comparison.png)
 
-![Feature Importance](feature_importance_corrected.png)
+![Feature Importance](feature_importance.png)
 
 ## 8. Key Finding
 
