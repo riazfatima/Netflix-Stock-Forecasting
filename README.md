@@ -18,10 +18,11 @@ instead measured with **MAE**, **RMSE**, and **R²**.
 
 | | |
 |---|---|
-| Source | NFLX historical daily OHLCV data |
+| Source | [Kaggle — Netflix Stock Price Prediction](https://www.kaggle.com/datasets/jainilcoder/netflix-stock-price-prediction) by jainilcoder |
 | Rows | 1,009 |
 | Columns | 7 (`Date`, `Open`, `High`, `Low`, `Close`, `Adj Close`, `Volume`) |
-| Date range | 2018-02-05 onward |
+| Date range | 5th Feb 2018 – 5th Feb 2022 (5 years) |
+| License | CC0: Public Domain |
 | Missing values | None |
 
 **Sample rows:**
@@ -157,8 +158,11 @@ path in the `pd.read_csv(...)` line.
 | `Stock_Price_Prediction.py` | Full analysis script |
 | `NFLX.csv` | Historical NFLX OHLCV dataset |
 | `correlation_heatmap.png` | Feature correlation heatmap |
-| `prediction_comparison_corrected.png` | Actual vs predicted price plot |
-| `feature_importance_corrected.png` | Random Forest feature importances |
+| `prediction_comparison.png` | Actual vs predicted price plot |
+| `feature_importance.png` | Random Forest feature importances |
 | `descriptive_statistics.csv` | Full descriptive statistics table |
 | `model_comparison_results.csv` | MAE/RMSE/R² comparison table |
 
+
+---
+**Author:** Fatima Riaz · Data Science Internship, Arch Technologies
